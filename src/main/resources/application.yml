@@ -1,0 +1,13 @@
+jwt:
+  secret: s3cre!k3y
+server:
+  port: 8081
+spring:
+  datasource:
+    password: pass@word1
+    url: jdbc:mysql://18.216.162.83:3306/sample
+    username: user
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
